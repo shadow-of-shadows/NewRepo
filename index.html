@@ -22,7 +22,22 @@
             --text-color: #333;
             --shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
         }
+        /* Стили для логотипа-изображения */
+        .logo-image {
+            height: 60px; /* Настройте под нужный размер */
+            width: auto;
+            max-width: 250px; /* Ограничиваем максимальную ширину */
+            object-fit: contain; /* Сохраняет пропорции */
+        }
         
+        /* Убираем старые стили иконки и текста (если они есть) */
+        .logo-icon {
+            display: none; /* Скрываем старую иконку */
+        }
+        
+        .logo-text {
+            display: none; /* Скрываем старый текст */
+        }
         body {
             line-height: 1.6;
             color: var(--text-color);
@@ -516,6 +531,22 @@
             .service-content h3 {
                 font-size: 1.3rem;
             }
+            /* Стили для логотипа-изображения */
+            .logo-image {
+                height: 60px; /* Настройте под нужный размер */
+                width: auto;
+                max-width: 250px; /* Ограничиваем максимальную ширину */
+                object-fit: contain; /* Сохраняет пропорции */
+            }
+            
+            /* Убираем старые стили иконки и текста (если они есть) */
+            .logo-icon {
+                display: none; /* Скрываем старую иконку */
+            }
+            
+            .logo-text {
+                display: none; /* Скрываем старый текст */
+            }
         }
     </style>
 </head>
@@ -783,4 +814,5 @@
     </script>
 </body>
 </html>
+
 
